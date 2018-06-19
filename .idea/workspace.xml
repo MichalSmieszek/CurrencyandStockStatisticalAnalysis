@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abb55f1e-07b9-47cd-a87e-e4ff22ec7e7e" name="Default" comment="" />
+    <list default="true" id="abb55f1e-07b9-47cd-a87e-e4ff22ec7e7e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Currency2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUD.json" beforeDir="false" afterPath="$PROJECT_DIR$/AUD.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aluminium.json" beforeDir="false" afterPath="$PROJECT_DIR$/Aluminium.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BRL.json" beforeDir="false" afterPath="$PROJECT_DIR$/BRL.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAD.json" beforeDir="false" afterPath="$PROJECT_DIR$/CAD.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHF.json" beforeDir="false" afterPath="$PROJECT_DIR$/CHF.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EUR.json" beforeDir="false" afterPath="$PROJECT_DIR$/EUR.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GBP.json" beforeDir="false" afterPath="$PROJECT_DIR$/GBP.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gold.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gold.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/INR.json" beforeDir="false" afterPath="$PROJECT_DIR$/INR.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JPY.json" beforeDir="false" afterPath="$PROJECT_DIR$/JPY.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NOK.json" beforeDir="false" afterPath="$PROJECT_DIR$/NOK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oil.json" beforeDir="false" afterPath="$PROJECT_DIR$/Oil.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Silver.json" beforeDir="false" afterPath="$PROJECT_DIR$/Silver.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/THB.json" beforeDir="false" afterPath="$PROJECT_DIR$/THB.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UAH.json" beforeDir="false" afterPath="$PROJECT_DIR$/UAH.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USD.json" beforeDir="false" afterPath="$PROJECT_DIR$/USD.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Waluty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Waluty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Stock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Stock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Waluty.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Waluty.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,20 +38,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gold.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gold.json">
+      <file leaf-file-name="Aluminium.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Aluminium.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="USD2.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/USD2.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -34,28 +64,10 @@
       <file leaf-file-name="Stock.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Stock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-526">
-              <caret line="29" column="89" selection-start-line="29" selection-start-column="89" selection-end-line="29" selection-end-column="89" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="227">
+              <caret line="23" column="88" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="88" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Aluminium.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Aluminium.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="JakCzegosNieNapiszeToSieNieOdczepiszPrawda.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JakCzegosNieNapiszeToSieNieOdczepiszPrawda.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="Oil.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Oil.json">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="AUD.json" pinned="false" current-in-tab="false">
@@ -70,8 +82,20 @@
       <file leaf-file-name="Waluty.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Waluty.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="65" column="9" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="65" selection-end-column="9" />
+            <state relative-caret-position="123">
+              <caret line="64" column="12" selection-start-line="62" selection-start-column="3" selection-end-line="109" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Currency2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Currency2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,6 +130,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -114,25 +141,30 @@
         <option value="$PROJECT_DIR$/src/main/java/PolaczWaluty.java" />
         <option value="$PROJECT_DIR$/src/main/java/PolaczJSONy.java" />
         <option value="$PROJECT_DIR$/src/main/java/WczytajJSON.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Waluty.java" />
         <option value="$PROJECT_DIR$/src/main/java/Zloto.java" />
         <option value="$PROJECT_DIR$/src/main/java/Oil.java" />
         <option value="$PROJECT_DIR$/src/main/java/Stock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Waluty.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Currency2.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="884" />
-    <option name="y" value="34" />
-    <option name="width" value="976" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="94" />
+    <option name="y" value="26" />
+    <option name="width" value="1211" />
+    <option name="height" value="780" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,12 +194,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -252,7 +282,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="94" y="26" width="1211" height="780" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -263,12 +293,12 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50292826" side_tool="true" weight="0.32857144" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49707174" visible="true" weight="0.32857144" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49707174" visible="true" weight="0.3108108" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28535566" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -292,6 +322,58 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/USD.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Stock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="89" selection-start-line="29" selection-start-column="89" selection-end-line="29" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AUD.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Waluty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="65" column="9" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="65" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CHF.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/USD.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -316,13 +398,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Zloto.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Zloto.json" />
     <entry file="file://$PROJECT_DIR$/CHF.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -337,16 +413,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Zloto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Zloto.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -371,23 +438,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Zloto.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Zloto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="84" lean-forward="true" selection-start-line="37" selection-start-column="84" selection-end-line="37" selection-end-column="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Zloto.json" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Zloto.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -395,16 +447,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Zloto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Zloto.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Waluty.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
@@ -415,13 +458,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Zloto.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Zloto.json" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -429,23 +466,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Zloto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Zloto.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Zloto.java" />
+    <entry file="file://$PROJECT_DIR$/Zloto.json" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Waluty.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -472,23 +494,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Zloto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Zloto.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Zloto.java" />
+    <entry file="file://$PROJECT_DIR$/Zloto.json" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Waluty.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
@@ -517,13 +524,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/USD.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Zloto.java" />
+    <entry file="file://$PROJECT_DIR$/Zloto.json" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Oil.java" />
     <entry file="file://$PROJECT_DIR$/AUD.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -531,30 +534,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Oil.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Zloto.java">
+    <entry file="file://$PROJECT_DIR$/USD.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Zloto.json">
+    <entry file="file://$PROJECT_DIR$/USD2.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Oil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Currency2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="67" lean-forward="true" selection-end-line="67" />
+        <state relative-caret-position="408">
+          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -563,43 +560,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Waluty.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="65" column="9" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="65" selection-end-column="9" />
+        <state relative-caret-position="123">
+          <caret line="64" column="12" selection-start-line="62" selection-start-column="3" selection-end-line="109" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JakCzegosNieNapiszeToSieNieOdczepiszPrawda.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gold.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aluminium.json">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Stock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-526">
-          <caret line="29" column="89" selection-start-line="29" selection-start-column="89" selection-end-line="29" selection-end-column="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="227">
+          <caret line="23" column="88" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="88" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aluminium.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

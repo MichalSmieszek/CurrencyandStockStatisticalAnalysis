@@ -1,66 +1,62 @@
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import org.json.*;
+import java.text.ParseException;
 
-public class Waluty {
-    public static String WypiszJSON(String waluta,int typdaty) {
-        String text="";
-        String mojJson="";
-
+public class Currency2 {
+    public static String twocurrencies(String currencyy) {
+        String mojJson = null;
         try {
-            URL url =null;
+            URL url = new URL("http://api.nbp.pl/api/exchangerates/rates/A/" + currencyy + "/2018-04-01/2018-05-16/?format=json");
             HttpURLConnection connection = null;
             BufferedReader reader = null;
             StringBuffer buffer = new StringBuffer();
             String line = "";
-            if (typdaty==0)
-                 url = new URL("http://api.nbp.pl/api/exchangerates/rates/A/" + waluta + "/2018-01-01/2018-03-31/?format=json");
-            else if (typdaty==1)
-                 url = new URL("http://api.nbp.pl/api/exchangerates/rates/A/" + waluta + "/2017-10-01/2017-12-31/?format=json");
             connection = (HttpURLConnection) url.openConnection();
             InputStream stream = connection.getInputStream();
             reader = new BufferedReader(new InputStreamReader(stream));
             while ((line = reader.readLine()) != null) {
                 buffer.append(line);
             }
-            String stringBuffer=buffer.toString();
-            mojJson="[";
-            JSONObject mainObject= new JSONObject(stringBuffer);
+            String stringBuffer = buffer.toString();
+            mojJson = "[";
+            JSONObject mainObject = new JSONObject(stringBuffer);
             JSONArray rates = mainObject.getJSONArray("rates");
-            for(int i=0;i<rates.length();i++) {
+            for (int i = 0; i < rates.length(); i++) {
+                System.out.print(rates.length());
                 JSONObject currency = rates.getJSONObject(i);
                 double cena = currency.getDouble("mid");
                 String date = currency.getString("effectiveDate");
-                mojJson = mojJson + "{\""+waluta+"\":\"" + cena +"\"}";
+                mojJson = mojJson + "{\"" + currencyy + "\":\"" + cena + "\"}";
                 if (i + 1 < rates.length())
                     mojJson = mojJson + ",";
             }
-                mojJson=mojJson+"]";
+            mojJson = mojJson + "]";
+
 
         } catch (IOException e) {
             e.printStackTrace();
-        }catch (JSONException e) {
+        } catch (JSONException e) {
             e.printStackTrace();
         }
-
-        return(mojJson);
+        return (mojJson);
     }
-    public static void napisz(String waluta){
-        String json1=WypiszJSON(waluta,1);
-        String json2=WypiszJSON(waluta,0);
-        json1=json1.substring(0, json1.length() - 1);
-        json2=json2.substring(1);
-        String mojJson=json1+","+json2;
+
+    public static void Write(String waluta) {
+        String json1 = twocurrencies(waluta);
         try {
-            PrintWriter out = new PrintWriter(waluta+ ".json");
-            out.println(mojJson);
+            PrintWriter out = new PrintWriter(waluta + "2.json");
+            out.println(json1);
             out.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
     }
-    public static void pair(String currency1, String currency2){
+    public static String Pair(String currency1, String currency2){
         File file1 = new File(currency1+".json");
         File file2 = new File(currency2+".json");
         String pairjson="[";
@@ -73,7 +69,7 @@ public class Waluty {
             StringBuffer buffer1 = new StringBuffer();
             StringBuffer buffer2 = new StringBuffer();
             while ((text = reader1.readLine()) != null) {
-               buffer1.append(text);
+                buffer1.append(text);
             }
             while ((text = reader2.readLine()) != null) {
                 buffer2.append(text);
@@ -85,9 +81,11 @@ public class Waluty {
             for(int i=0;i<array1.length();i++){
                 JSONObject currency11 = array1.getJSONObject(i);
                 JSONObject currency22 = array2.getJSONObject(i);
-               double c= Double.parseDouble(currency11.get(currency1).toString()) /
+                double c= Double.parseDouble(currency11.get(currency1).toString()) /
                         Double.parseDouble(currency22.get(currency2).toString());
-                pairjson=pairjson+"{pair:"+c + "}";
+                pairjson=pairjson+"{\"pair\":"+c + "}";
+                if (i<array1.length()-1)
+                    pairjson=pairjson+",";
             }
             pairjson=pairjson+"]";
             System.out.print(pairjson);
@@ -100,12 +98,25 @@ public class Waluty {
         }
         finally {
             try {
-                if (reader1 != null) {
+                if (reader1 != null)
                     reader1.close();
-                }
-            } catch (IOException e) {
+
+                if (reader2 != null)
+                        reader2.close();
+
+                } catch (IOException e) {
             }
         }
-
+    return(pairjson);
+    }
+    public static void PairToJson(String currency1,String currency2){
+        String json1 = Pair(currency1,currency2);
+        try {
+            PrintWriter out = new PrintWriter(currency1+currency2+ ".json");
+            out.println(json1);
+            out.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 }

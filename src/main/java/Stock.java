@@ -46,7 +46,7 @@ public class Stock {
                 Date date = sdf.parse(stringDate);
                 String open=value.getString(1);
                 if (date.before(endingDate) && date.after(beginningDate))
-                    mojJson=mojJson+ "{\""+stringDate+"\": " + open + "},";
+                    mojJson=mojJson+ "{\""+stock+"\": " + open + "},";
             }
             mojJson=mojJson.substring(0, mojJson.length() - 1)+"]";
         } catch (IOException e) {
